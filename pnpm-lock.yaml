@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@netlify/plugin-nextjs': 4.29.5-appdir.0
+  '@netlify/plugin-nextjs': ^4.32.2
   '@types/node': 18.15.3
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
@@ -24,7 +24,7 @@ dependencies:
   typescript: 5.0.2
 
 devDependencies:
-  '@netlify/plugin-nextjs': 4.29.5-appdir.0
+  '@netlify/plugin-nextjs': 4.32.2
 
 packages:
 
@@ -336,8 +336,8 @@ packages:
       - supports-color
     dev: true
 
-  /@netlify/plugin-nextjs/4.29.5-appdir.0:
-    resolution: {integrity: sha512-Yhw+452omZAfILEZKHPB213W7bOduUAQmlG2OccByuxonb1LipT3Ouz1WA9pcqn1ZeWUMEyPBYYSD/Ki7aUFfg==}
+  /@netlify/plugin-nextjs/4.32.2:
+    resolution: {integrity: sha512-xvFPrF3JPokYDlB+JmBmpsQR1S2HDYpMdTeTG4mbhdEfj+Bet+rLRUhuF1i6B5GVggj1bMzlTHgovCGjDxaZ/Q==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@netlify/esbuild': 0.14.39
