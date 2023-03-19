@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^0.4.2",
-    "@netlify/plugin-nextjs": "^4.32.2"
+    "@netlify/plugin-nextjs": "4.29.5-appdir.0",
+    "vercel": "^28.17.0"
   }
 }
