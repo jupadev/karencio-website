@@ -20,6 +20,7 @@
     "typescript": "5.0.2"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^0.4.2",
     "@netlify/plugin-nextjs": "^4.32.2"
   }
 }
