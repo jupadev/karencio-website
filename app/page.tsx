@@ -1,71 +1,41 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "./page.module.css";
+import React from 'react';
 
-const inter = Inter({ subsets: ["latin"] });
+import Header from './partials/Header';
+import PageIllustration from './partials/PageIllustration';
+import HeroHome from './partials/HeroHome';
+import FeaturesBlocks from './partials/FeaturesBlocks';
+import FeaturesZigZag from './partials/FeaturesZigzag';
+import Testimonials from './partials/Testimonials';
+import Newsletter from './partials/Newsletter';
+import Footer from './partials/Footer';
 
-export default function Home() {
+function Home() {
   return (
-    <div>
-      <nav
-        style={{
-          height: "50px",
-          backgroundColor: "gainsboro",
-          color: "#444",
-          display: "flex",
-          flex: 1,
-          alignItems: "center",
-        }}
-      >
-        Nav bar
-      </nav>
-      <main>
-        <div
-          style={{
-            flex: 1,
-            alignItems: "center",
-            backgroundColor: "lightcoral",
-            padding: "1rem",
-            minHeight: "600px",
-          }}
-        >
-          HERO Baner
-        </div>
-        <div
-          style={{
-            flex: 1,
-            alignItems: "center",
-            backgroundColor: "#aaa",
-            padding: "1rem",
-            minHeight: "300px",
-          }}
-        >
-          section 1
+    <div className="flex flex-col min-h-screen overflow-hidden">
+      {/*  Site header */}
+      <Header />
+
+      {/*  Page content */}
+      <main className="grow">
+        {/*  Page illustration */}
+        <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
+          <PageIllustration />
         </div>
 
-        <div
-          style={{
-            flex: 1,
-            alignItems: "center",
-            backgroundColor: "#aaa",
-            padding: "1rem",
-            minHeight: "300px",
-          }}
-        >
-          section 2
-        </div>
+        <HeroHome />
+        
+        <FeaturesBlocks />
+        
+        <FeaturesZigZag />
+      
+        <Testimonials />
+        
+        <Newsletter />
       </main>
-      <footer
-        style={{
-          flex: 1,
-          color: "#ffffff",
-          backgroundColor: "#333333",
-          padding: "1rem",
-          minHeight: "100px",
-        }}
-      >
-        footer
-      </footer>
+
+      <Footer />
     </div>
   );
 }
+
+export default Home;
