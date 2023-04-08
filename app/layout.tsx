@@ -1,5 +1,6 @@
 import { Roboto } from "next/font/google";
-import "./globals.css";
+import './globals.css';
+
 
 const roboto = Roboto({
   weight: ["400", "700"],
@@ -19,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>{children}</body>
+      <body className={`${roboto.className} font-inter antialiased bg-gray-900 text-gray-200 tracking-tight`}>{children}</body>
     </html>
   );
 }
