@@ -1,4 +1,6 @@
-import React from 'react';
+"use client"
+import React, { useEffect } from 'react';
+import AOS from 'aos';
 
 import Header from './partials/Header';
 import PageIllustration from './partials/PageIllustration';
@@ -10,29 +12,28 @@ import Newsletter from './partials/Newsletter';
 import Footer from './partials/Footer';
 
 function Home() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      disable: 'phone',
+      duration: 600,
+      easing: 'ease-out-sine',
+    });
+  }, []);
+
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
-      {/*  Site header */}
       <Header />
-
-      {/*  Page content */}
       <main className="grow">
-        {/*  Page illustration */}
         <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
           <PageIllustration />
         </div>
-
         <HeroHome />
-        
         <FeaturesBlocks />
-        
         <FeaturesZigZag />
-      
         <Testimonials />
-        
         <Newsletter />
       </main>
-
       <Footer />
     </div>
   );

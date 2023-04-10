@@ -41,7 +41,7 @@ function HeroHome() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              Expert IT Consulting Services for Your Business
+            <span className="text-gradient">Expert IT Consulting Services for Your Business</span>
             </h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
             Our experienced team of IT consultants is dedicated to delivering tailored solutions to help your business thrive. From software development to network infrastructure, we have the expertise to meet your technology needs.
