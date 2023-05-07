@@ -85,7 +85,7 @@ function Header() {
                                       opacity="1"
                                       transform="matrix(1,0,0,1,0,0)"
                                       fill="#bbf7d0"
-                                      class="undefined-text-0"
+                                      className="undefined-text-0"
                                       data-fill-palette-color="primary"
                                       id="text-0"
                                     ></path>
@@ -111,7 +111,7 @@ function Header() {
                                       opacity="1"
                                       transform="matrix(1,0,0,1,0,0)"
                                       fill="#bbf7d0"
-                                      class="undefined-text-1"
+                                      className="undefined-text-1"
                                       data-fill-palette-color="secondary"
                                       id="text-1"
                                     ></path>
@@ -161,7 +161,7 @@ function Header() {
                                     y="0"
                                     height="117.01935793236326"
                                     width="134.42354978433906"
-                                    class="icon-_$-0"
+                                    className="icon-_$-0"
                                     data-fill-palette-color="accent"
                                     id="_$-0"
                                   >

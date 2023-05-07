@@ -1,6 +1,9 @@
 import { Roboto } from "next/font/google";
-import './globals.css';
 
+import Header from './partials/Header';
+import Footer from './partials/Footer';
+
+import "./globals.css";
 
 const roboto = Roboto({
   weight: ["400", "700"],
@@ -20,7 +23,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} font-inter antialiased bg-gray-800 text-gray-200 tracking-tight`}>{children}</body>
+      <body
+        className={`${roboto.className} font-inter antialiased bg-gray-800 text-gray-200 tracking-tight`}
+      >
+        <div className="flex flex-col min-h-screen overflow-hidden">
+          <Header />
+          {children}
+          <Footer />
+        </div>
+      </body>
     </html>
   );
 }
