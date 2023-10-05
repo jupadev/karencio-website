@@ -6,8 +6,7 @@ function PrivacyPolicy() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       <Header />
-      <main className="grow">
-
+      <main className="container mt-8 mx-auto px-4">
         <h2 style={{ textAlign: "center" }} ><b>PRIVACY POLICY</b></h2>
         <p>Effective date: 2023-11-05</p>
         <p>1. <b>Introduction</b></p>
