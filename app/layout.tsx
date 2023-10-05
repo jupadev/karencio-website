@@ -9,7 +9,7 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: "Karencio | Web development consultant",
+  title: "Karencio Dev LLC| Web development consultant",
   description: `Let's build your application together. Our company will help to build the best solution for your business`,
 };
 

@@ -35,7 +35,7 @@ function Footer() {
               &copy; Karencio.com. All rights reserved. <a href="tel:+14155087170">+1(415)5087170</a>
             </div>
             <div className="text-gray-400 text-sm mr-4">
-              <a href="/terms-and-conditions">Terms and Conditions</a>
+              <a href="/privacy-policy">Privacy Policy</a>
             </div>
           </div>
         </div>
