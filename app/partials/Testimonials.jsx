@@ -42,8 +42,8 @@ function Testimonials() {
                 </div>
               </div>
               <blockquote className="text-lg text-gray-400 grow">
-                {`— Open PRO lets me quickly get the insights I care about so that
-                I can focus on my productive work. I've had Open PRO for about
+                {`— Karencio Dev lets me quickly get the insights I care about so that
+                I can focus on my productive work. I've had Karencio Dev for about
                 24 hours now and I honestly don't know how I functioned without
                 it before.`}
               </blockquote>
@@ -84,8 +84,8 @@ function Testimonials() {
                 </div>
               </div>
               <blockquote className="text-lg text-gray-400 grow">
-                {`— Open PRO lets me quickly get the insights I care about so that
-                I can focus on my productive work. I've had Open PRO for about
+                {`— Karencio Dev lets me quickly get the insights I care about so that
+                I can focus on my productive work. I've had Karencio Dev for about
                 24 hours now and I honestly don't know how I functioned without
                 it before.`}
               </blockquote>
@@ -126,8 +126,8 @@ function Testimonials() {
                 </div>
               </div>
               <blockquote className="text-lg text-gray-400 grow">
-                {`— Open PRO lets me quickly get the insights I care about so that
-                I can focus on my productive work. I've had Open PRO for about
+                {`— Karencio Dev lets me quickly get the insights I care about so that
+                I can focus on my productive work. I've had Karencio Dev for about
                 24 hours now and I honestly don't know how I functioned without
                 it before.`}
               </blockquote>
