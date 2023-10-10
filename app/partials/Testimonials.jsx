@@ -42,20 +42,10 @@ function Testimonials() {
                 </div>
               </div>
               <blockquote className="text-lg text-gray-400 grow">
-                {`— Karencio Dev lets me quickly get the insights I care about so that
-                I can focus on my productive work. I've had Karencio Dev for about
-                24 hours now and I honestly don't know how I functioned without
-                it before.`}
+                {`— Working with Karencio Dev for our e-commerce website was an absolute game-changer. Their team of experts demonstrated unparalleled proficiency in web development and e-commerce solutions. From the initial consultation to the final launch, the process was seamless. They not only met but exceeded our expectations. The attention to detail, responsiveness, and innovative approach set them apart. Karencio Dev is undoubtedly a top choice for anyone seeking reliable and cutting-edge solutions in web development and e-commerce.`}
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Anastasia Dan</cite>{" "}
-                -{" "}
-                <a
-                  className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
-                >
-                  UX Board
-                </a>
+                <cite className="text-gray-200 not-italic">Sarah Mitchell</cite>
               </div>
             </div>
 
@@ -84,20 +74,10 @@ function Testimonials() {
                 </div>
               </div>
               <blockquote className="text-lg text-gray-400 grow">
-                {`— Karencio Dev lets me quickly get the insights I care about so that
-                I can focus on my productive work. I've had Karencio Dev for about
-                24 hours now and I honestly don't know how I functioned without
-                it before.`}
+                {`— I can't express how satisfied I am with the services provided by Karencio Dev. As a small business owner venturing into the online market, their expertise in e-commerce was invaluable. The team understood our unique needs and delivered a website that not only looks fantastic but also functions seamlessly. What impressed me the most was their commitment to staying updated with the latest industry trends. Karencio Dev not only built our website but also provided valuable insights on optimizing the user experience. I highly recommend them to anyone in need of top-notch web development and e-commerce solutions.`}
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Anastasia Dan</cite>{" "}
-                -{" "}
-                <a
-                  className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
-                >
-                  UX Board
-                </a>
+                <cite className="text-gray-200 not-italic">Benjamin Harper</cite>
               </div>
             </div>
 
@@ -126,20 +106,10 @@ function Testimonials() {
                 </div>
               </div>
               <blockquote className="text-lg text-gray-400 grow">
-                {`— Karencio Dev lets me quickly get the insights I care about so that
-                I can focus on my productive work. I've had Karencio Dev for about
-                24 hours now and I honestly don't know how I functioned without
-                it before.`}
+                {`— Choosing Karencio Dev for our web development needs was a decision we're grateful for every day. Their approach to e-commerce solutions is both strategic and efficient. From conceptualization to execution, the team displayed a deep understanding of our business goals and translated them into a visually stunning and highly functional website. What sets Karencio Dev apart is their commitment to client satisfaction; they were always ready to address our concerns and implement changes promptly. If you're looking for a reliable partner in web development and e-commerce, look no further than Karencio Dev.`}
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Anastasia Dan</cite>{" "}
-                -{" "}
-                <a
-                  className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
-                >
-                  UX Board
-                </a>
+                <cite className="text-gray-200 not-italic">Alex Rodriguez</cite>
               </div>
             </div>
           </div>
