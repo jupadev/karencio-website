@@ -22,8 +22,8 @@ function FeaturesBlocks() {
                 <path className="stroke-current text-purple-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
-              <h4 className="h4 mb-2">Customized Development Solutions</h4>
-              <p className="text-lg text-gray-400 text-center">{`Showcase your company's ability to create visually stunning and innovative designs that captivate users and align with modern design trends.`}</p>
+              <h4 className="h4 mb-2 text-center">Innovative Design Expertise</h4>
+              <p className="text-lg text-gray-400">{`Showcase your company's ability to create visually stunning and innovative designs that captivate users and align with modern design trends.`}</p>
             </div>
 
             {/* 2nd item */}
@@ -33,8 +33,8 @@ function FeaturesBlocks() {
                 <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">{`Highlight your company's commitment to tailoring web development solutions to meet the unique needs and goals of each client, ensuring a personalized and effective online presence.`}</p>
+              <h4 className="h4 mb-2 text-center">Customized Development Solutions</h4>
+              <p className="text-lg text-gray-400">{`Highlight your company's commitment to tailoring web development solutions to meet the unique needs and goals of each client, ensuring a personalized and effective online presence.`}</p>
             </div>
 
             {/* 3rd item */}
@@ -47,8 +47,8 @@ function FeaturesBlocks() {
                   <circle className="stroke-current text-purple-100" cx="11" cy="11" r="11" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Responsive and Cross-Browser Compatibility</h4>
-              <p className="text-lg text-gray-400 text-center">{`Showcase your dedication to creating websites that are not only visually appealing but also responsive across various devices and compatible with multiple browsers, ensuring a consistent and optimized experience for all users.`}</p>
+              <h4 className="h4 mb-2 text-center">Responsive and Cross-Browser Compatibility</h4>
+              <p className="text-lg text-gray-400">{`Showcase your dedication to creating websites that are not only visually appealing but also responsive across various devices and compatible with multiple browsers, ensuring a consistent and optimized experience for all users.`}</p>
             </div>
 
             {/* 4th item */}
@@ -60,8 +60,8 @@ function FeaturesBlocks() {
                   <circle className="stroke-current text-purple-300" cx="13" cy="9" r="3" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">User-Centric Approach</h4>
-              <p className="text-lg text-gray-400 text-center">{`Communicate your focus on user experience (UX) and user interface (UI) design, demonstrating how your web development services prioritize a seamless and enjoyable experience for visitors.`}</p>
+              <h4 className="h4 mb-2 text-center">User-Centric Approach</h4>
+              <p className="text-lg text-gray-400">{`Communicate your focus on user experience (UX) and user interface (UI) design, demonstrating how your web development services prioritize a seamless and enjoyable experience for visitors.`}</p>
             </div>
 
             {/* 5th item */}
@@ -74,7 +74,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Cutting-Edge Technology Integration</h4>
-              <p className="text-lg text-gray-400 text-center">{`Emphasize your company's proficiency in adopting and integrating the latest technologies, ensuring that clients receive state-of-the-art solutions that are both functional and future-proof.`}</p>
+              <p className="text-lg text-gray-400">{`Emphasize your company's proficiency in adopting and integrating the latest technologies, ensuring that clients receive state-of-the-art solutions that are both functional and future-proof.`}</p>
             </div>
 
             {/* 6th item */}
@@ -87,8 +87,8 @@ function FeaturesBlocks() {
                   <path className="stroke-current text-purple-100" d="M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Agile Development Methodology</h4>
-              <p className="text-lg text-gray-400 text-center">{`Highlight your company's commitment to agile development methodologies, emphasizing flexibility, adaptability, and the ability to deliver projects on time and within budget.`}</p>
+              <h4 className="h4 mb-2 text-center">Agile Development Methodology</h4>
+              <p className="text-lg text-gray-400">{`Highlight your company's commitment to agile development methodologies, emphasizing flexibility, adaptability, and the ability to deliver projects on time and within budget.`}</p>
             </div>
 
           </div>
