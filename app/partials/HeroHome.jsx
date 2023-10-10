@@ -41,19 +41,14 @@ function HeroHome() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-            <span className="text-gradient">Expert IT Consulting Services for Your Business</span>
+            <span className="text-gradient">Karencio Dev IT Consulting Services for Your Business</span>
             </h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
             Our experienced team of IT consultants is dedicated to delivering tailored solutions to help your business thrive. From software development to network infrastructure, we have the expertise to meet your technology needs.
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">
-                  Start free trial
-                </a>
-              </div>
-              <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">
+                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="/what-we-do">
                   Learn more
                 </a>
               </div>
