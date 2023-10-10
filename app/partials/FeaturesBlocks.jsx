@@ -73,7 +73,7 @@ function FeaturesBlocks() {
                   <path className="stroke-current text-purple-300" d="M22 30h4v12h-4z" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Cutting-Edge Technology Integration</h4>
+              <h4 className="h4 mb-2 text-center">Cutting-Edge Technology Integration</h4>
               <p className="text-lg text-gray-400">{`Emphasize your company's proficiency in adopting and integrating the latest technologies, ensuring that clients receive state-of-the-art solutions that are both functional and future-proof.`}</p>
             </div>
 
