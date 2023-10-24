@@ -9,9 +9,9 @@ const WhoWeArePage = () => (
         <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Who We Are: Unleashing Creativity, Driving Innovation</h1>
 
         <p className="mb-3 text-gray-500 dark:text-gray-400">{`Welcome to the beating heart of Karencio Dev, where passion meets expertise, and a dynamic team comes together to redefine the digital landscape. Here's a glimpse into how we operate and why choosing us means choosing a partner dedicated to your success:`}</p>
-        <section class="flex flex-wrap justify-center">
-          <div class="w-6/12 sm:w-4/12 px-4">
-            <img alt="Company owner" src="/images/perfil-jpv.jpeg" class="shadow-lg rounded-full max-w-full h-auto align-middle border-none" />
+        <section className="flex flex-wrap justify-center">
+          <div className="w-6/12 sm:w-4/12 px-4">
+            <img alt="Company owner" src="/images/perfil-jpv.jpeg" className="shadow-lg rounded-full max-w-full h-auto align-middle border-none" />
           </div>
           <p>Juan Pablo Vargas, CEO</p>
           <span>Consultant IT Specialist</span>
