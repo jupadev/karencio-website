@@ -7,7 +7,6 @@ function Footer() {
       <div className="py-12 md:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           {/* Top area: Blocks */}
-          
 
           {/* Bottom area */}
           <div className="md:flex md:items-center md:justify-between">
@@ -32,7 +31,11 @@ function Footer() {
 
             {/* Copyrights note */}
             <div className="text-gray-400 text-sm mr-4">
-              &copy; Karencio.com. All rights reserved. <a href="tel:+14155087170">+1 (415) 5087170</a>
+              &copy; Karencio.com. All rights reserved.
+              <br />
+              <a href="tel:+14155087170">+1 (415) 5087170</a>
+              <br />
+              <a href="mailto:hello@karencio.com">hello@karencio.com</a>
             </div>
             <div className="text-gray-400 text-sm mr-4">
               <a href="/privacy-policy">Privacy Policy</a>

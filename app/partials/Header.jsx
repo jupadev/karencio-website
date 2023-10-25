@@ -192,7 +192,7 @@ function Header() {
               <li>
                 <Link
                   href="/"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-xl text-purple-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Home
                 </Link>
@@ -200,7 +200,7 @@ function Header() {
               <li>
                 <Link
                   href="/who-we-are"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-xl text-purple-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Who We Are
                 </Link>
@@ -208,7 +208,7 @@ function Header() {
               <li>
                 <Link
                   href="/what-we-do"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-xl  text-purple-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   What We Do
                 </Link>
