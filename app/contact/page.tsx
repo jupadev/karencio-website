@@ -8,6 +8,7 @@ const {
   NEXT_PUBLIC_EMAIL_TEMPLATE_ID = "",
 } = process.env;
 
+console.log(NEXT_PUBLIC_EMAIL_SERVICE_ID)
 const Contact = () => {
   const [sending, setSending] = useState(false);
   const submitHandler = (e: FormEvent<HTMLFormElement>) => {
