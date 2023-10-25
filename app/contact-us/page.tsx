@@ -21,6 +21,7 @@ const ContactUs = () => (
           2201 MENAUL BLVD NE, STE A,<br/>
           Albuquerque, NM 87107
         </p>
+        <h2 className="mt-4">Business Hours</h2>
         <table className="table-auto">
           <tbody><tr>
             <td className="day font-weight-bold">Monday</td>

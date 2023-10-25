@@ -8,7 +8,6 @@ import HeroHome from './partials/HeroHome';
 import FeaturesBlocks from './partials/FeaturesBlocks';
 import Testimonials from './partials/Testimonials';
 import Newsletter from './partials/Newsletter';
-import Footer from './partials/Footer';
 
 function Home() {
   useEffect(() => {
@@ -32,7 +31,6 @@ function Home() {
         <Testimonials />
         <Newsletter />
       </main>
-      <Footer />
     </div>
   );
 }
