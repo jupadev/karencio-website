@@ -4,9 +4,9 @@ import Header from '../partials/Header';
 const WhatWeDoPage = () => (
   <article className="flex flex-col min-h-screen overflow-hidden">
     <Header />
-    <main className="container mt-8 mx-auto px-4">
-      <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
-        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">What We Do: Crafting Digital Excellence</h1>
+    <main className="container mt-8 mx-auto px-4 max-w-6xl mx-auto">
+      <div className="relative pt-32 pb-10 md:pt-40 md:pb-16 ">
+        <h1 className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white">What We Do: Crafting Digital Excellence</h1>
 
         <p className="mb-3 text-gray-500 dark:text-gray-400">{`Welcome to Karencio Dev, where innovation meets functionality, and digital aspirations become reality. As a leading web development company, we specialize in providing a spectrum of services that seamlessly blend creativity, technology, and strategic thinking. Here's a glimpse into what sets us apart:`}</p>
 
